@@ -4,7 +4,7 @@ import org.junit.Test
 import java.util.*
 import kotlin.test.assertEquals
 
-public class KotlinPingPongActorTest {
+public class ActorTest {
     @Test public fun generalScenario() {
         var sys:TestActorSystem = TestActorSystem()
         startNodes(sys, nodesCount = 5, timeout = 500)
